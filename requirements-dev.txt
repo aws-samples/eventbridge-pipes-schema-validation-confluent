@@ -1,0 +1,9 @@
+aws-lambda-powertools
+aws_xray-sdk
+boto3
+confluent_kafka
+fastavro
+pydantic
+pytest
+pytest-mock
+requests

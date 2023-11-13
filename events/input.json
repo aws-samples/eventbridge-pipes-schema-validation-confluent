@@ -1,0 +1,232 @@
+[
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2136,
+    "timestamp": 1698221925140,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0MzU=",
+    "value": "AAABhqGmwgEKMTI0MzUKMTI0MzUAAAAAgEnIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 51, 53]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2137,
+    "timestamp": 1698221925631,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0MzY=",
+    "value": "AAABhqGowgEKMTI0MzYKMTI0MzYAAAAAAErIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 51, 54]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2138,
+    "timestamp": 1698221936611,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0NTQ=",
+    "value": "AAABhqHMwgEKMTI0NTQKMTI0NTQAAAAAAFPIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 53, 52]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2139,
+    "timestamp": 1698221937133,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0NTc=",
+    "value": "AAABhqHSwgEKMTI0NTcKMTI0NTcAAAAAgFTIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 53, 55]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2140,
+    "timestamp": 1698221949764,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0Nzk=",
+    "value": "AAABhqH+wgEKMTI0NzkKMTI0NzkAAAAAgF/IQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 55, 57]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2141,
+    "timestamp": 1698221956974,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0OTM=",
+    "value": "AAABhqGawwEKMTI0OTMKMTI0OTMAAAAAgGbIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 57, 51]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2142,
+    "timestamp": 1698221958987,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0OTc=",
+    "value": "AAABhqGiwwEKMTI0OTcKMTI0OTcAAAAAgGjIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 57, 55]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2143,
+    "timestamp": 1698221959401,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI0OTg=",
+    "value": "AAABhqGkwwEKMTI0OTgKMTI0OTgAAAAAAGnIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 52, 57, 56]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2144,
+    "timestamp": 1698221969005,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI1MTk=",
+    "value": "AAABhqHOwwEKMTI1MTkKMTI1MTkAAAAAgHPIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 53, 49, 57]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  },
+  {
+    "topic": "topic_0",
+    "partition": 3,
+    "offset": 2145,
+    "timestamp": 1698221969996,
+    "timestampType": "CREATE_TIME",
+    "key": "MTI1MjI=",
+    "value": "AAABhqHUwwEKMTI1MjIKMTI1MjIAAAAAAHXIQA==",
+    "headers": [
+      {
+        "task.generation": [48]
+      },
+      {
+        "task.id": [48]
+      },
+      {
+        "current.iteration": [49, 50, 53, 50, 50]
+      }
+    ],
+    "bootstrapServers": "smk://pkc-p11xm.us-east-1.aws.confluent.cloud:9092",
+    "eventSource": "SelfManagedKafka",
+    "eventSourceKey": "topic_0-3"
+  }
+]
