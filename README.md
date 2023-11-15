@@ -4,6 +4,8 @@ This code sample allows you to perform event schema validation and conversion fr
 
 In this example implementation, events are read from Kafka using EventBridge Pipes and published to an [EventBridge event bus](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-event-bus.html) which logs all incoming events to a [CloudWatch Logs log group](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/Working-with-log-groups-and-streams.html). Customize the [target of EventBridge Pipes](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-pipes-event-target.html) or the [EventBridge event bus target](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-targets.html) to suit your use case.
 
+See the associated blog post on the AWS Compute Blog: https://aws.amazon.com/blogs/compute/converting-apache-kafka-events-from-avro-to-json-using-eventbridge-pipes/
+
 > This architecture will create resources that will incur costs. Please refer to the [AWS Pricing](https://aws.amazon.com/pricing/) page for details and ensure you understand the costs before deploying this stack. This application was written for demonstration and education purposes and not for production use. Take a look at the [Security](#security) section of this readme and consider consulting your security team before deploying this stack. No warranty is implied in this example.
 
 ## Prerequisites
