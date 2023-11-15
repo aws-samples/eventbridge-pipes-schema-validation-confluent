@@ -62,7 +62,7 @@ To deploy this CDK stack, you need two sets of credentials. A first one for acce
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
 
    ```bash
-   git clone git@github.com:aws-samples/eventbridge-pipes-schema-validation-confluent.git
+   git clone https://github.com/aws-samples/eventbridge-pipes-schema-validation-confluent.git
    ```
 
 1. Change directory to the sample directory:
