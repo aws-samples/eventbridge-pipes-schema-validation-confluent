@@ -62,13 +62,13 @@ To deploy this CDK stack, you need two sets of credentials. A first one for acce
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/aws-samples/pipes-schema-validation-confluent
+   git clone git@github.com:aws-samples/eventbridge-pipes-schema-validation-confluent.git
    ```
 
-1. Change directory to the pattern directory:
+1. Change directory to the sample directory:
 
    ```bash
-   cd pipes-schema-validation-confluent
+   cd eventbridge-pipes-schema-validation-confluent
    ```
 
 1. Create a `virtualenv`:
@@ -132,15 +132,15 @@ See [Pipes batching and concurrency](https://docs.aws.amazon.com/eventbridge/lat
 
 ## How it works
 
-![Pattern architecture](img/architecture.png "Pattern architecture")
+![Sample architecture](img/architecture.png "Sample architecture")
 
-This pattern sets up an EventBridge pipe with the following key elements:
+This sample sets up an EventBridge pipe with the following key elements:
 
 1. The **source** of the pipe is a Kafka cluster deployed on Confluent Platform or Confluent Cloud. EventBridge Pipes reads events from the Kafka stream in batches and provides these to the enrichment function as event payloads.
 
 1. The **enrichment** step of the pipe consists of a Lambda function that validates the incoming events against the Confluent Schema Registry, deserializes them from Avro, and trasnforms them to JSON before returning.
 
-1. The **target** of this pattern is an EventBridge custom event bus that is invoked by EventBridge Pipes with the events returned by the enrichment Lambda function. EventBridge Pipes supports a variety of other targets, including Lambda, AWS Step Functions, Amazon API Gateway, API destinations, and more.
+1. The **target** of this sample is an EventBridge custom event bus that is invoked by EventBridge Pipes with the events returned by the enrichment Lambda function. EventBridge Pipes supports a variety of other targets, including Lambda, AWS Step Functions, Amazon API Gateway, API destinations, and more.
 
 The Python enrichment function uses the [`confluent-kafka`](https://github.com/confluentinc/confluent-kafka-python) library for schema validation and Avro deserialization. It uses [Powertools for AWS Lambda (Python)](https://docs.powertools.aws.dev/lambda/python/latest/) to implement Serverless best practices such as logging, tracing, secrets handling, typing, and JSON schema validation for incoming requests.
 
